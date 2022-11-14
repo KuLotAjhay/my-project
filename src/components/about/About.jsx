@@ -4,6 +4,9 @@ import Me from '../../assets/about_me.png'
 import {BsAwardFill} from 'react-icons/bs'
 import {FiUsers} from 'react-icons/fi'
 import {AiOutlineFolderOpen} from 'react-icons/ai'
+import {BsLayersHalf} from 'react-icons/bs'
+
+
 const About = () => {
   return (
     <section id="about">
@@ -18,6 +21,7 @@ const About = () => {
 
         <div className="about_content">
         <div className="about_cards">
+
             <article className="about_card">
             <BsAwardFill className="about_icon"/>
               <h5>Experiences</h5>
@@ -35,14 +39,20 @@ const About = () => {
               <h5>Projects</h5>
               <small>30+ projects</small>
             </article>
-          </div>
 
+            <article className="about_card">
+            <BsLayersHalf className="about_icon"/>
+              <h5>Other</h5>
+              <small>Blogs | Content Creation</small>
+            </article>
+
+          </div>
           <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci soluta consectetur, dolores sit at quibusdam ducimus iure! Explicabo, blanditiis possimus 
               dolorum ipsum quas delectus quam atque illum dicta ullam autem.
           </p>
 
-          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="#contact" className="btn btn-primary">Get in Touch</a>
 
             
 
