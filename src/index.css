@@ -129,7 +129,7 @@ img {
 
 /* ---For Small Devices(Media Queries)--- */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     .container {
         width: var(--container-width-sm);
     }
