@@ -5,20 +5,27 @@ import Me from '../../assets/Me.png'
 import HeaderSocials from './HeaderSocials'
 import { BsFillArrowDownCircleFill } from 'react-icons/bs'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import 'animate.css'
+
+
+AOS.init();
+
+
 const Header = () => {
   return (
    <header id='home'>
     <div className="container header_container">
       <h5 className="text-light">Hi There! I'm</h5>
-      <h1>Ajhay</h1>
-      <h3>Front-end web Developer</h3>
-       <small className="text-light">Based in Rizal Philippines</small>
+      <h1 className="myname animate__animated animate__pulse animate__slow	2s animate__infinite	infinite ">Ajhay</h1>
+      <h5 className="s_e"> Software Engineer</h5>
 
       <CTA/>
 
       <HeaderSocials/>
 
-      <div className="me">
+      <div className="me" data-aos="zoom-in" data-aos-mirror="true" data-aos-once="false" data-aos-duration="2000">
         <img src={Me} alt="me" />
       </div>
 

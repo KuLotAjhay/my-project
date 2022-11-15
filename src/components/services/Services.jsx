@@ -9,7 +9,7 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services_container">
-        <article className="service">
+        <article className="service"data-aos="zoom-in" data-aos-mirror="true" data-aos-once="false" data-aos-duration="2000">
           <div className="service_head">
             <h3>UI/UX Design</h3>
           </div>
@@ -38,7 +38,7 @@ const Services = () => {
         </ul>
         </article>
         {/*--End UI/UX--*/}
-        <article className="service">
+        <article className="service" data-aos="zoom-in" data-aos-mirror="true" data-aos-once="false" data-aos-duration="2000">
           <div className="service_head">
             <h3>Web Development</h3>
           </div>
@@ -67,7 +67,7 @@ const Services = () => {
         </ul>
         </article>
         {/*--End Web development--*/}
-        <article className="service">
+        <article className="service" data-aos="zoom-in" data-aos-mirror="true" data-aos-once="false" data-aos-duration="2000">
           <div className="service_head">
             <h3>Content Creation</h3>
           </div>

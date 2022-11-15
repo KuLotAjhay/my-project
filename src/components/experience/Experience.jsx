@@ -2,6 +2,12 @@ import React from 'react'
 import './experience.css'
 import {BsFillCheckCircleFill} from 'react-icons/bs'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+
+AOS.init();
+
 const Experience = () => {
   return (
     <section id="experience">
@@ -11,7 +17,7 @@ const Experience = () => {
       <h2>My Experience</h2>
       
       <div className="container experience_container">
-        <div className="experience_frontend">
+        <div className="experience_frontend" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in">
             <h3>Frontend Development</h3>
             <div className="experience_content">
               <article className="experience_details">
@@ -62,7 +68,7 @@ const Experience = () => {
 
         {/*---BACKEND---*/}
 
-        <div className="experience_backend">
+        <div className="experience_backend" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in">
         <h3>Backend Development</h3>
             <div className="experience_content">
               <article className="experience_details">

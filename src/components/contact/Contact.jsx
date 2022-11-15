@@ -12,21 +12,20 @@ const Contact = () => {
 
       <div className="container contact_container">
         <div className="contact_options">
-          <article className="contact_option">
-          <HiOutlineMail className="contact_option-icon"/>
+          <article className="contact_option service"data-aos="zoom-in" data-aos-mirror="true" data-aos-once="false" data-aos-duration="2000">
             <h4>Email</h4>
             <h5>example123@example.com</h5>
             <a href="mailto:dchaos1006@gmail.com">Send a Message</a>
           </article>
 
-          <article className="contact_option">
+          <article className="contact_option service" data-aos="zoom-in" data-aos-mirror="true" data-aos-once="false" data-aos-duration="2000">
           <RiMessengerLine className="contact_option-icon"/>
             <h4>Messenger</h4>
             <h5>example123@example.com</h5>
             <a href="https://facebook.com/ArvenKulot">Send a Message</a>
           </article>
 
-          <article className="contact_option">
+          <article className="contact_option service" data-aos="zoom-in" data-aos-mirror="true" data-aos-once="false" data-aos-duration="2000">
           <AiOutlineWhatsApp className="contact_option-icon"/>
             <h4>WhatsApp</h4>
             <h5>example123@example.com</h5>
