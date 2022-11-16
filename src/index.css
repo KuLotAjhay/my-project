@@ -58,10 +58,8 @@ h1 {
     font: size 2.5rem;
 }
 
-header,
-section {
-    margin-top: 8rem;
-}
+
+/*section 8rem margin top*/
 
 section>h2,
 section>h5 {
