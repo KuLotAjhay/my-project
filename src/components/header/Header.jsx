@@ -2,12 +2,15 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import Me from '../../assets/Me.png'
-import HeaderSocials from './HeaderSocials'
 import { BsFillArrowDownCircleFill } from 'react-icons/bs'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import 'animate.css'
+
+import {BsLinkedin} from 'react-icons/bs'
+import {BsGithub} from 'react-icons/bs'
+import {BsFacebook} from 'react-icons/bs'
 
 
 AOS.init();
@@ -21,7 +24,11 @@ const Header = () => {
       <h1 className="myname animate__animated animate__pulse animate__slow	2s animate__infinite	infinite ">Ajhay</h1>
       <h5 className="s_e"> Software Engineer</h5>
       <CTA/>
-      <HeaderSocials/>
+    <div className="header_Socials"  data-aos="zoom-in-up" data-aos-duration="1800">
+          <a href="https://linkedin.com"><BsLinkedin/></a>
+          <a href="https://github.com" ><BsGithub/></a>
+          <a href="https://facebook.com"><BsFacebook/></a>
+    </div>
       <div className="me" data-aos="zoom-in" data-aos-mirror="true" data-aos-once="false" data-aos-duration="2000">
         <img src={Me} alt="me" />
       </div>

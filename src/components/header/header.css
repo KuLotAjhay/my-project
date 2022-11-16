@@ -30,7 +30,7 @@ header {
     gap: 1rem;
     position: absolute;
     left: 0;
-    bottom: 7rem;
+    bottom: 20rem;
 }
 
 .header_Socials::after {
@@ -61,7 +61,7 @@ header {
     gap: 1rem;
     position: absolute;
     right: -3rem;
-    bottom: 7rem;
+    bottom: 20rem;
     gap: 2rem;
 }
 
