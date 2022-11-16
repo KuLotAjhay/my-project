@@ -45,7 +45,7 @@
 
 /*---Small Devices---*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     .portfolio_container {
         grid-template-columns: 1fr;
         gap: 1rem;

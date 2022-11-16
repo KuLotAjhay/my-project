@@ -37,7 +37,7 @@
 
 /*---Small Devices---*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     .container.testimonials_container {
         width: var(--container-width-sm);
     }

@@ -32,7 +32,7 @@ const About = () => {
             <article className="about_card" data-aos="zoom-in-right" data-aos-once="false" data-aos-duration="2000">
             <BsAwardFill className="about_icon"/>
               <h5>Experiences</h5>
-              <small>1+ yrs</small>
+              <small>1+ yr</small>
             </article>
 
             <article className="about_card" data-aos="zoom-in-left" data-aos-once="false" data-aos-duration="2000">

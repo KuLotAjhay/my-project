@@ -29,6 +29,7 @@ header {
     gap: 1rem;
     position: absolute;
     left: 0;
+    padding-top: 10rem;
 }
 
 .header_Socials::after {
@@ -59,7 +60,7 @@ header {
     gap: 1rem;
     position: absolute;
     right: -3rem;
-    gap: 2rem;
+    padding-top: 15rem;
 }
 
 #scroll_Name {
