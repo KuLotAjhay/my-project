@@ -20,11 +20,8 @@ const Header = () => {
       <h5 className="text-light">Hi There! I'm</h5>
       <h1 className="myname animate__animated animate__pulse animate__slow	2s animate__infinite	infinite ">Ajhay</h1>
       <h5 className="s_e"> Software Engineer</h5>
-
       <CTA/>
-
       <HeaderSocials/>
-
       <div className="me" data-aos="zoom-in" data-aos-mirror="true" data-aos-once="false" data-aos-duration="2000">
         <img src={Me} alt="me" />
       </div>

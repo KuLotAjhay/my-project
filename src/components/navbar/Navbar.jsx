@@ -4,7 +4,7 @@ import {AiOutlineHome} from 'react-icons/ai'
 import {AiOutlineUser} from 'react-icons/ai'
 import {AiOutlineBook} from 'react-icons/ai'
 import {RiServiceLine} from 'react-icons/ri'
-import {HiOutlineUserGroup} from 'react-icons/hi'
+import {HiOutlineFolderOpen} from 'react-icons/hi'
 import {AiOutlineMessage} from 'react-icons/ai'
 import { useState } from 'react'
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
     <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
     <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><AiOutlineBook/></a>
     <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a>
-    <a href="#testimonials" onClick={() => setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active' : ''}><HiOutlineUserGroup/></a>
+    <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><HiOutlineFolderOpen/></a>
     <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiOutlineMessage/></a>
   </nav>
   )

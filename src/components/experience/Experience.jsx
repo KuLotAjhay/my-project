@@ -1,6 +1,13 @@
 import React from 'react'
 import './experience.css'
 import {BsFillCheckCircleFill} from 'react-icons/bs'
+import {IoLogoHtml5} from 'react-icons/io'
+import {IoLogoCss3} from 'react-icons/io'
+import {IoLogoSass} from 'react-icons/io'
+import {IoLogoJavascript} from 'react-icons/io'
+import {IoLogoReact} from 'react-icons/io5'
+import {FaBootstrap} from 'react-icons/fa'
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -21,38 +28,37 @@ const Experience = () => {
             <h3>Frontend Development</h3>
             <div className="experience_content">
               <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details-icon"/>
+              <IoLogoHtml5 className="experience_details-icon"/>
            <div>   <h4>HTML</h4>
               <small className="text-light">Experienced</small></div>
               </article>
 
               <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details-icon"/>
+              <IoLogoCss3 className="experience_details-icon"/>
              <div> <h4>CSS</h4>
               <small className="text-light">Experienced</small></div>
               </article>
 
               <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details-icon"/>
+              <IoLogoSass className="experience_details-icon"/>
              <div> <h4>SASS</h4>
               <small className="text-light">Experienced</small></div>
               </article>
 
               <article className="experience_details">
-              <BsFillCheckCircleFill className="experienc
-                e_details-icon"/>
+              <IoLogoJavascript className="experience_details-icon"/>
              <div> <h4>JAVASCRIPT</h4>
               <small className="text-light">Experienced</small></div>
               </article>
 
               <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details-icon"/>
+              <IoLogoReact className="experience_details-icon"/>
            <div>   <h4>REACT JS</h4>
               <small className="text-light">Experienced</small></div>
               </article>
 
               <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details-icon"/>
+              <FaBootstrap className="experience_details-icon"/>
            <div>   <h4>BOOTSTRAP</h4>
               <small className="text-light">Experienced</small></div>
               </article>
