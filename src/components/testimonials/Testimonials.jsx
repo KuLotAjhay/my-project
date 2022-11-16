@@ -5,7 +5,7 @@ import AVTR2 from '../../assets/Person2.jpg'
 import AVTR3 from '../../assets/Person3.jpg'
 import AVTR4 from '../../assets/Person4.jpg'
 import AVTR5 from '../../assets/Person5.jpg'
-import AVTR6 from '../../assets/Person6.jpg'
+import AVTR6 from '../../assets/fingerheart.jpg'
 /*-Swiper JS-*/
 import { Autoplay, Pagination } from 'swiper';
 import {Swiper, SwiperSlide } from 'swiper/react';
@@ -42,8 +42,8 @@ const data =[{
 },
 {
   avatar: AVTR6,
-  name: "Love You",
-  review: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa et dolores ratione ex consectetur molestiae consequatur veliteveniet, autem, sint omnis amet hic placeat obcaecati, similique quae est. Voluptates, placeat.",
+  name: "Hi Krassssss",
+  review: "HAHAHAHHAHHAHAHA!",
 },
 ]
 
