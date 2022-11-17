@@ -59,7 +59,7 @@
 
 /*---Small Devices---*/
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     .experience_container {
         gap: 1rem;
     }

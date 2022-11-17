@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    margin-top: 0;
 }
 
 .about_me-image {
@@ -77,7 +78,7 @@
 
 /*---Small Devices---*/
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     .about_me {
         width: 65%;
         margin: 0 auto 3rem;

@@ -50,6 +50,15 @@
     font-size: 0.9rem;
 }
 
+.service_me-image {
+    width: 12rem;
+    height: 10rem;
+    position: absolute;
+    left: calc(90% - 11rem);
+    padding-top: 24rem;
+    /* top right bottom left */
+}
+
 
 /*---Medium devices---*/
 
@@ -66,7 +75,7 @@
 
 /*---Small Devices---*/
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     .services_container {
         grid-template-columns: 1fr;
         gap: 1.5rem;

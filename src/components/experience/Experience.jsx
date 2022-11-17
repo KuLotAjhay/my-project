@@ -1,12 +1,16 @@
 import React from 'react'
 import './experience.css'
-import {BsFillCheckCircleFill} from 'react-icons/bs'
 import {IoLogoHtml5} from 'react-icons/io'
 import {IoLogoCss3} from 'react-icons/io'
 import {IoLogoSass} from 'react-icons/io'
 import {IoLogoJavascript} from 'react-icons/io'
 import {IoLogoReact} from 'react-icons/io5'
 import {FaBootstrap} from 'react-icons/fa'
+import {SiTailwindcss} from 'react-icons/si'
+import {IoLogoNodejs} from 'react-icons/io5'
+import {SiMongodb} from 'react-icons/si'
+import {SiPhp} from 'react-icons/si'
+import {GrMysql} from 'react-icons/gr'
 
 
 import AOS from 'aos';
@@ -64,7 +68,7 @@ const Experience = () => {
               </article>
 
               <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details-icon"/>
+              <SiTailwindcss className="experience_details-icon"/>
            <div>   <h4>TAILWIND</h4>
               <small className="text-light">Experienced</small></div>
               </article>
@@ -78,24 +82,24 @@ const Experience = () => {
         <h3>Backend Development</h3>
             <div className="experience_content">
               <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details-icon"/>
+              <IoLogoNodejs className="experience_details-icon"/>
              <div> <h4>Node JS</h4>
               <small className="text-light">Experienced</small></div>
               </article>
 
               <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details-icon"/>
+              <SiMongodb className="experience_details-icon"/>
              <div> <h4>MongoDB</h4>
               <small className="text-light">Experienced</small></div>
               </article>
 
               <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details-icon"/>
-           <div>   <h4>PHP</h4>
+              <SiPhp className="experience_details-icon"/>
+           <div> <h4>PHP</h4>
               <small className="text-light">Basic</small></div>
               </article>
               <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details-icon"/>
+              <GrMysql className="experience_details-icon"/>
              <div> <h4>MYSQL</h4>
               <small className="text-light">Basic</small></div>
               </article>
