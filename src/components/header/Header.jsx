@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import Me from '../../assets/Me.png'
+import Me from '../../assets/pp.png'
 import HeaderSocials from './HeaderSocials'
 import { BsFillArrowDownCircleFill } from 'react-icons/bs'
 
@@ -26,7 +26,6 @@ const Header = () => {
 
       <div className="me" data-aos="zoom-in" data-aos-mirror="true" data-aos-once="false" data-aos-duration="2000">
         <img src={Me} alt="me" />
-        <h5 className="s_e">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sunt dolorem ex ipsam aliquid dolores ratione amet. Esse molestiae magnam hic expedita harum aliquid, ipsum tenetur nulla? Beatae, inventore voluptas.</h5>
       </div>
 
       <div className="scroll_Down">

@@ -1,7 +1,7 @@
 import React from 'react'
 import './services.css'
 import {BiCheck} from 'react-icons/bi'
-import Service from '../../assets/Services.png'
+
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -104,7 +104,6 @@ const Services = () => {
          
         </ul>
         </article>
-      <div className="service_me-image" data-aos="zoom-in" data-aos-once="false" data-aos-duration="2000"><img src={Service} alt ="service Images"/></div>
         {/*--End  of Content Creation--*/}
         </div>
     </section>
