@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import Me from '../../assets/pp.png'
+import Me from '../../assets/Me.png'
 import HeaderSocials from './HeaderSocials'
 import { BsFillArrowDownCircleFill } from 'react-icons/bs'
 
